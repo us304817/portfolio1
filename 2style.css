@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0b0f14;
+  color: #fff;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 8%;
+  background: #0b0f14;
+}
+
+.logo {
+  color: #00ffae;
+}
+
+.logo span {
+  color: #fff;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.navbar a:hover,
+.active {
+  color: #00ffae;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 8%;
+  flex-wrap: wrap;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  color: #00ffae;
+}
+
+.hero-text h2 {
+  margin: 10px 0;
+}
+
+.hero-img img {
+  width: 250px;
+  border-radius: 50%;
+  box-shadow: 0 0 25px #00ffae;
+}
+
+/* BUTTONS */
+.btn {
+  background: #00ffae;
+  padding: 10px 20px;
+  margin-right: 10px;
+  color: #000;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+.outline {
+  border: 2px solid #00ffae;
+  background: transparent;
+  color: #00ffae;
+}
+
+/* SECTIONS */
+.section {
+  padding: 60px 8%;
+  text-align: center;
+}
+
+.dark {
+  background: #111;
+}
+
+/* SKILLS */
+.skills span {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 15px;
+  border: 1px solid #00ffae;
+  border-radius: 20px;
+}
+.skills span:hover{
+  background-color: rgb(26, 210, 210);
+
+
+}
+
+/* PROJECTS */
+.projects {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: #1a1f27;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+/* FORM */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background: #00ffae;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+}
